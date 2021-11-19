@@ -9,4 +9,4 @@ Creat a file system on the device /dev/<volume group>
 test the mounting
 <pre># mount /dev/rhel/data /export/data</pre>
 Modify the fstab so the device is mount at start up
-<pre>/dev/rhel/data                                        /export/data            ext4    defaults,x-systemd.device-timeout=0 1 2</pre>  
+<pre>/dev/rhel/data   /export/data    ext4    defaults,x-systemd.device-timeout=0 1 2</pre>  

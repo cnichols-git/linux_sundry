@@ -2,7 +2,7 @@
 
 ## Adding a mounted device  
 <pre>lvcreate -L 700G -n data rhel</pre>  
-** Show the logical volumes  
+** Show the logical volumes  **
 <pre>lvdisplay</pre>  
 Creat a file system on the device /dev/<volume group>  
 <pre>mkfs.ext4 /dev/rhel/data</pre>

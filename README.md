@@ -1,7 +1,7 @@
 # linux_sundry  
 
 ## Adding a mounted device  
-We are creating a logical volume named data that is 700GB in the rhel volume group  
+We are creating a logical volume named "data" that is 700GB in the rhel volume group  
 <pre>lvcreate -L 700G -n data rhel</pre>  
 **Show the logical volumes**
 Display all the logical volumes to show the newly created volume so we know the full path name

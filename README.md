@@ -23,8 +23,10 @@ notify-send -t 180000  $test
 #echo $test  
 ## Remove kernel from Linux install  
 Went to the Boot menu and selected the other kernel listed. Machine boot up in cursed mode.  
-opened a terminal. dpkg --list | grep -i -E --color 'linux-image|linux-kernel' | grep '^ii'  
+opened a terminal.  
+<pre>dpkg --list | grep -i -E --color 'linux-image|linux-kernel' | grep '^ii'</pre>  
 found the Oracle image. on my computer it was listed as " linux-image-unsigned-5.19.0-1013-oracle 5.19.0-1013.14 amd64 Oracle Linux kernel image for  version 5.19.0 on 64 bit x86 SMP"  
 Removed the "Oracle" image. sudo apt purge linux-image-5.19.0-1013-oracle  
 sudo ubuntu-drivers install  
 Rebooted.  
+Sourcce : https://old.reddit.com/r/Ubuntu/comments/zb67sw/success_removed_oracle_image/  

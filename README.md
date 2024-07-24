@@ -1,5 +1,4 @@
 # linux_sundry  
-https://docs.google.com/forms/d/1S62rK8VVkUIRoN4ubCflpcwEUD1APQak0cH3JgejVJI/edit?ts=62ab571c is
 
 ## Adding a mounted device  
 We are creating a logical volume named "data" that is 700GB in the rhel volume group  
